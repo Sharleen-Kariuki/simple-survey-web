@@ -4,10 +4,10 @@ This is the frontend single-page web application (SPA) for the **Sky Survey Plat
 
 ---
 
-## ✨ Features
+## Features
 
-1. **📋 Survey Management (Admin)**: Create new surveys, update details, toggle survey statuses (Open/Closed), and delete surveys.
-2. **❓ Question Management (Admin)**: Add questions to surveys, edit question contents, delete questions, and manage choices for single-choice and multiple-choice questions.
+1. ** Survey Management (Admin)**: Create new surveys, update details, toggle survey statuses (Open/Closed), and delete surveys.
+2. ** Question Management (Admin)**: Add questions to surveys, edit question contents, delete questions, and manage choices for single-choice and multiple-choice questions.
 3. **💬 Dynamic Survey Form (Public)**:
    - Stepped wizard form (one question per step) with dynamic question injection from API.
    - Prev/Next navigation with step indicators and progress indicators.
@@ -18,7 +18,7 @@ This is the frontend single-page web application (SPA) for the **Sky Survey Plat
      - `single-choice` (Radio option lists)
      - `multiple-choice` (Checkbox option lists)
      - `certificate-upload` (PDF files only, drag-and-drop or file selector)
-4. **📥 Response Management (Admin)**:
+4. ** Response Management (Admin)**:
    - Browse submitted answers.
    - View pagination results.
    - **Filter by Email Address**: Search responses in real-time by entering a respondent's email. Uses a debounced input to query the API.
@@ -27,7 +27,7 @@ This is the frontend single-page web application (SPA) for the **Sky Survey Plat
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React** (v19)
 - **Vite** (Build tool and local dev server)
@@ -36,7 +36,7 @@ This is the frontend single-page web application (SPA) for the **Sky Survey Plat
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 To run this application locally, you need:
 
@@ -46,7 +46,7 @@ To run this application locally, you need:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Install Dependencies**:
    Navigate to the frontend directory and run:
@@ -56,7 +56,7 @@ To run this application locally, you need:
 
 ---
 
-## 🏃 Running Locally
+## Running Locally
 
 To start the Vite development server:
 
@@ -68,7 +68,7 @@ Once started, open the local URL in your browser (typically `http://localhost:51
 
 ---
 
-## 📌 Assumptions Made
+## Assumptions Made
 
 1. **Backend Integration**: The application assumes that the API server is reachable at `http://localhost:8080` (CORS is enabled on the server to permit requests).
 2. **JWT Local Storage**: Admin users persist authentication JWT tokens in the browser's local storage upon logging in.
